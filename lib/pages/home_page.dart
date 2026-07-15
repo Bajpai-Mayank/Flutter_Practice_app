@@ -9,8 +9,8 @@ class MyHomePage extends StatelessWidget {
       appBar: AppBar(
         title: Text("Navigation bar",
         style: TextStyle(
-          color:Colors.white,
           fontSize:25,
+          color: Colors.white,
         ),),
         backgroundColor: Color(0xFFFF0000),
       ),
