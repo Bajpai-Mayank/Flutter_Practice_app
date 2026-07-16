@@ -6,15 +6,16 @@ class MyTheme {
     appBarTheme: AppBarTheme(
       backgroundColor: Colors.white,
       elevation: 0.0,
-      iconTheme: IconThemeData(color: Colors.white),
+      iconTheme: IconThemeData(color: Colors.black),
     ),
+    scaffoldBackgroundColor: Colors.white,
   );
   static ThemeData darkTheme(BuildContext context) => ThemeData(
     primarySwatch: Colors.deepPurple,
     appBarTheme: AppBarTheme(
       backgroundColor: Colors.white,
       elevation: 0.0,
-      iconTheme: IconThemeData(color: Colors.black),
+      iconTheme: IconThemeData(color: Colors.white),
     ),
   );
 }
